@@ -51,40 +51,40 @@ h1, h2 {
     background-repeat: no-repeat;
 }*/
 
-.hero-unit, header {
+header {
+    color:#FFF;
     background-color:#88ad3e;
     border-radius:0;
-    margin-bottom:0;
     background-image:url(../graphics/UoG_logo.png);
     background-position:bottom right;
     background-repeat: no-repeat;
+    padding-top:10px;
 }
-.hero-unit h2 {
+
+header #head-title {
+    padding: 40px 0 10px 0;
+}
+
+
+header h1, header h2 {
     color:#FFF;
+}
+
+header h2 {
     text-align: center;
     font-variant: small-caps;
     line-height: 20px;
 }
-.hero-unit a, .hero-unit a:hover {
+header a, header a:hover {
     color:#FFF;
 }
-header {
-    height:100px;
-    /*background-color:#c52a39;*/
-    background-color:#88ad3e;
-    color:#FFF;
-}
-header h1 {
-    color:#FFF;
-}
-
-header .lead, .hero-unit .lead {
+header .lead {
     margin-left:50px;
     font-style:italic;
 }
 
-.hero-unit .container-fluid, header .container-fluid {
-    background:url('../graphics/top_swoop.png') bottom left no-repeat;
+header .container-fluid {
+    /*background:url('../graphics/top_swoop.png') bottom left no-repeat;*/
 }
 
 .accordion-group {
@@ -120,6 +120,11 @@ h4 {color:#f26430;}
 @media (max-width: 767px) {
     body {padding-left: 0; padding-right: 0;}
     .navbar-fixed-top {margin: 0;}
+
+    header {
+        height:100px;
+        padding:0;
+    }
     
     #highlights {
         background-image:none;
