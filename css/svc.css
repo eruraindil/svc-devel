@@ -1,0 +1,138 @@
+/*
+$primary1:      #1883aa;    //logo-blue
+$primary2:      #94c03d;    //logo-green
+
+$secondary1:    #73abb2;    //light-blue
+$secondary2:    #88ad3e;    //light-green
+
+$accent1:       #f26430;    //orange
+$accent2:       #c52a39;    //cherry
+$accent3:       #5f4866;    //purple
+
+$cream:         #f0e8d5;    //cream
+$brown:         #4c2817;    //brown
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+@font-face {
+    font-family: Futura Book;
+    src: url('../fonts/FuturaLT-Book.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Futura Light;
+    src: url(../fonts/FuturaLT-Light.ttf) format("truetype");
+}
+
+body {
+    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    /*font-family: 'Futura LT', 'Didact Gothic', 'Century Gothic', Arial sans-serif;*/
+    background:url(../graphics/test.png) no-repeat center #FFF;
+    color:#111;
+
+}
+
+.dropdown-menu>li>a {color:#777;}
+
+#main-body {
+    /*Abackground: #FFF url(../graphics/top_swoop.png) bottom right no-repeat;*/
+}
+
+h1, h2 {
+    font-family: Futura Light;
+    font-weight:normal;
+    color:#FFF;
+}
+
+/*.navbar .container-fluid {
+    background-image:url(../graphics/UoG_tag.png);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+}*/
+
+.hero-unit, header {
+    background-color:#88ad3e;
+    border-radius:0;
+    margin-bottom:0;
+    background-image:url(../graphics/UoG_logo.png);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+}
+.hero-unit h2 {
+    color:#FFF;
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 20px;
+}
+.hero-unit a, .hero-unit a:hover {
+    color:#FFF;
+}
+header {
+    height:100px;
+    /*background-color:#c52a39;*/
+    background-color:#88ad3e;
+    color:#FFF;
+}
+header h1 {
+    color:#FFF;
+}
+
+header .lead, .hero-unit .lead {
+    margin-left:50px;
+    font-style:italic;
+}
+
+.hero-unit .container-fluid, header .container-fluid {
+    background:url('../graphics/top_swoop.png') bottom left no-repeat;
+}
+
+.accordion-group {
+    background:#FFF;
+}
+.accordion-heading a {
+    color: #f26430;
+}
+#highlights {
+    background:#73abb2 url(../graphics/UoG_tag.png) no-repeat top right;
+    color: #FFF;
+}
+#highlights h2 {
+    color:#FFF;
+}
+
+footer {
+    color: #4c2817;
+    font-family:'Futura Light', inherit;
+    background:#f0e8d5;
+}
+
+footer a {
+    color:#4c2817;
+}
+
+
+h2 {color:#1883aa;}
+h3 {color:#c52a39;}
+h4 {color:#f26430;}
+
+
+@media (max-width: 767px) {
+    body {padding-left: 0; padding-right: 0;}
+    .navbar-fixed-top {margin: 0;}
+    
+    #highlights {
+        background-image:none;
+        color: #FFF;
+    }
+
+    #main-body {
+        background-image:url(../graphics/UoG_tag.png);
+        background-repeat:no-repeat;
+        background-position: top right;
+        margin:0 20px;
+    }
+    footer * {
+        text-align:center !important;
+    }
+}
