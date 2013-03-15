@@ -68,6 +68,7 @@ header #head-title {
 
 header h1, header h2 {
     color:#FFF;
+    padding-right:100px;
 }
 
 header h2 {
@@ -146,5 +147,14 @@ h4 {color:#f26430;}
 
     footer * {
         text-align:center !important;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: small;
+    }
+    header p.lead {
+        display:none;
     }
 }
