@@ -117,18 +117,24 @@ h3 {color:#c52a39;}
 h4 {color:#f26430;}
 
 
-@media (max-width: 767px) {
+@media (max-width: 979px) {
     body {padding-left: 0; padding-right: 0;}
     .navbar-fixed-top {margin: 0;}
+    
+    #highlights {
+        padding-top:50px;
+        color: #FFF;
+    }
 
+    #main-body {
+        
+    }
+}
+
+@media (max-width: 767px) {
     header {
         height:100px;
         padding:0;
-    }
-    
-    #highlights {
-        background-image:none;
-        color: #FFF;
     }
 
     #main-body {
@@ -137,6 +143,7 @@ h4 {color:#f26430;}
         background-position: top right;
         margin:0 20px;
     }
+
     footer * {
         text-align:center !important;
     }
