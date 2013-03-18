@@ -68,7 +68,7 @@ header #head-title {
 
 header h1, header h2 {
     color:#FFF;
-    padding-right:100px;
+    padding-right:120px;
 }
 
 header h2 {
@@ -121,6 +121,11 @@ h4 {color:#f26430;}
 @media (max-width: 979px) {
     body {padding-left: 0; padding-right: 0;}
     .navbar-fixed-top {margin: 0;}
+
+    header {
+        height:100px;
+        padding:0;
+    }
     
     #highlights {
         padding-top:50px;
@@ -133,10 +138,7 @@ h4 {color:#f26430;}
 }
 
 @media (max-width: 767px) {
-    header {
-        height:100px;
-        padding:0;
-    }
+    
 
     #main-body {
         background-image:url(../graphics/UoG_tag.png);
@@ -152,7 +154,6 @@ h4 {color:#f26430;}
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: small;
     }
     header p.lead {
         display:none;
