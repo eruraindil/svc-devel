@@ -154,7 +154,7 @@ h4 {color:#f26430;}
 
 @media (max-width: 480px) {
     header h1 {
-        font-size:medium;
+        font-size:large;
     }
     header p.lead {
         display:none;
