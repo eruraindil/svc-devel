@@ -13,7 +13,7 @@ $cream:         #f0e8d5;    //cream
 $brown:         #4c2817;    //brown
 */
 
-@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url('http://fonts.googleapis.com/css?family=Didact+Gothic');
 
 @font-face {
     font-family: Futura Book;
@@ -61,6 +61,16 @@ header {
     padding-top:10px;
 }
 
+header #head-logo {
+    position:relative;
+    height:170px;
+}
+
+header #head-logo #logo-img {
+    position:absolute;
+    bottom:0;
+}
+
 header #head-title {
     padding: 40px 0 10px 0;
 }
@@ -100,6 +110,10 @@ header .container-fluid {
 }
 #highlights h2 {
     color:#FFF;
+    padding-right:105px;
+}
+#highlights ul {
+    list-style-type: square;
 }
 
 footer {
@@ -112,11 +126,9 @@ footer a {
     color:#4c2817;
 }
 
-
 h2 {color:#1883aa;}
 h3 {color:#c52a39;}
 h4 {color:#f26430;}
-
 
 @media (max-width: 979px) {
     body {padding-left: 0; padding-right: 0;}
@@ -128,7 +140,7 @@ h4 {color:#f26430;}
     }
     
     #highlights {
-        padding-top:50px;
+        /*padding-top:50px;*/
         color: #FFF;
     }
 
@@ -138,13 +150,15 @@ h4 {color:#f26430;}
 }
 
 @media (max-width: 767px) {
-    
-
     #main-body {
         background-image:url(../graphics/UoG_tag.png);
         background-repeat:no-repeat;
         background-position: top right;
         margin:0 20px;
+    }
+
+    #highlights {
+        background-image: none;
     }
 
     footer * {
