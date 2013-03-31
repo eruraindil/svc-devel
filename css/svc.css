@@ -28,7 +28,7 @@ $brown:         #4c2817;    //brown
 body {
     font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
     /*font-family: 'Futura LT', 'Didact Gothic', 'Century Gothic', Arial sans-serif;*/
-    background:url(../graphics/test.png) no-repeat center #FFF;
+    background:#FFF;
     color:#111;
 
 }
@@ -45,6 +45,7 @@ h1, h2 {
     color:#FFF;
 }
 
+div.subtitle {display:none;}
 /*.navbar .container-fluid {
     background-image:url(../graphics/UoG_tag.png);
     background-position:bottom right;
@@ -92,6 +93,8 @@ header a, header a:hover {
 header .lead {
     margin-left:50px;
     font-style:italic;
+    margin-bottom:0;
+    padding-bottom:0;
 }
 
 header .container-fluid {
@@ -107,6 +110,12 @@ header .container-fluid {
 #highlights {
     background:#73abb2 url(../graphics/UoG_tag.png) no-repeat top right;
     color: #FFF;
+    top: 60px;
+    right:20px;
+}
+.affix {
+    background:#73abb2 !important;
+    margin-left:-10px !important;
 }
 #highlights h2 {
     color:#FFF;
@@ -155,6 +164,7 @@ h4 {color:#f26430;}
         background-repeat:no-repeat;
         background-position: top right;
         margin:0 20px;
+        padding:10px 0;
     }
 
     #highlights {
