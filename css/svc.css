@@ -137,7 +137,7 @@ footer a {
 
 h2 {color:#1883aa;}
 h3 {color:#c52a39;}
-h4 {color:#f26430;}
+h4 {color:#5f4866;} /*#f26430*/
 
 @media (max-width: 979px) {
     body {padding-left: 0; padding-right: 0;}
