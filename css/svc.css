@@ -64,7 +64,7 @@ header {
 
 header #head-logo {
     position:relative;
-    height:160px;
+    height:155px;
 }
 
 header #logo-img {
@@ -181,6 +181,9 @@ h4 {color:#5f4866;} /*#f26430*/
         padding-top:0;
     }
 
+    #milestones #thelogos {
+        width:80px;
+    }
 
     footer * {
         text-align:center !important;
