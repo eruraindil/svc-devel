@@ -64,10 +64,10 @@ header {
 
 header #head-logo {
     position:relative;
-    height:170px;
+    height:160px;
 }
 
-header #head-logo #logo-img {
+header #logo-img {
     position:absolute;
     bottom:0;
 }
@@ -76,6 +76,9 @@ header #head-title {
     padding: 40px 0 10px 0;
 }
 
+header h1 {
+    margin-top:0;
+}
 
 header h1, header h2 {
     color:#FFF;
@@ -93,8 +96,7 @@ header a, header a:hover {
 header .lead {
     margin-left:50px;
     font-style:italic;
-    margin-bottom:0;
-    padding-bottom:0;
+    margin-bottom:10px;
 }
 
 header .container-fluid {
@@ -141,7 +143,8 @@ h4 {color:#5f4866;} /*#f26430*/
 
 @media (max-width: 979px) {
     body {padding-left: 0; padding-right: 0;}
-    .navbar-fixed-top {margin: 0;}
+
+    .navbar-fixed-top {margin:0;}
 
     .nav-collapse .dropdown-menu .active a {
         color:#FFF;
@@ -151,14 +154,16 @@ h4 {color:#5f4866;} /*#f26430*/
         height:100px;
         padding:0;
     }
+    header h1 {
+        margin-top:10px;
+    }
     
     #highlights {
-        /*padding-top:50px;*/
+        padding-top:50px;
         color: #FFF;
     }
-
-    #main-body {
-        
+    #highlights h2 {
+        padding-right:0;
     }
 }
 
@@ -173,7 +178,9 @@ h4 {color:#5f4866;} /*#f26430*/
 
     #highlights {
         background-image: none;
+        padding-top:0;
     }
+
 
     footer * {
         text-align:center !important;
