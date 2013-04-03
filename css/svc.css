@@ -29,7 +29,7 @@ body {
     font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
     /*font-family: 'Futura LT', 'Didact Gothic', 'Century Gothic', Arial sans-serif;*/
     background:#FFF;
-    color:#111;
+    color:#222;
 
 }
 
@@ -39,10 +39,9 @@ body {
     /*Abackground: #FFF url(../graphics/top_swoop.png) bottom right no-repeat;*/
 }
 
-h1, h2 {
+header #title, h1, h2, h3 {
     font-family: Futura Light;
     font-weight:normal;
-    color:#FFF;
 }
 
 div.subtitle {display:none;}
@@ -76,11 +75,13 @@ header #head-title {
     padding: 40px 0 10px 0;
 }
 
-header h1 {
-    margin-top:0;
+header #title {
+    font-size: 38.5px;
+    line-height: 40px;
+    margin-top:10px;
 }
 
-header h1, header h2 {
+header #title, header h1, header h2 {
     color:#FFF;
     padding-right:120px;
 }
@@ -94,7 +95,7 @@ header a, header a:hover {
     color:#FFF;
 }
 header .lead {
-    margin-left:50px;
+    margin-left: 50px;
     font-style:italic;
     margin-bottom:10px;
 }
@@ -110,15 +111,25 @@ header .container-fluid {
     color: #5f4866;
 }
 #highlights {
-    background:#73abb2 url(../graphics/UoG_tag.png) no-repeat top right;
+    background:#73abb2;
     color: #FFF;
+}
+#highlights.affix-top {
+    background:#73abb2 url(../graphics/UoG_tag.png) no-repeat top right;
+}
+#highlights.affix {
+    /*margin-left:50px !important;*/
+    /*width:inherit;*/
     top: 60px;
     right:20px;
 }
-.affix {
-    background:#73abb2 !important;
-    margin-left:-10px !important;
+
+#highlights.affix-bottom {
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
 }
+
 #highlights h2 {
     color:#FFF;
     padding-right:105px;
@@ -137,9 +148,11 @@ footer a {
     color:#4c2817;
 }
 
-h2 {color:#1883aa;}
-h3 {color:#c52a39;}
-h4 {color:#5f4866;} /*#f26430*/
+h1 {color:#1883aa;}
+/*h2 {color:#1883aa;}*/
+h2 {color:#c52a39;}
+h3 {color:#5f4866;}
+h4 {color:#f26430;}
 
 @media (max-width: 979px) {
     body {padding-left: 0; padding-right: 0;}
@@ -179,10 +192,6 @@ h4 {color:#5f4866;} /*#f26430*/
     #highlights {
         background-image: none;
         padding-top:0;
-    }
-
-    #milestones #thelogos {
-        width:80px;
     }
 
     footer * {

@@ -14,20 +14,11 @@
             body {
                 padding-top: 60px;
             }
-            h2 {
-                color:#1883aa;
-            }
         </style>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/svc.css">
-
-        <style>
-            h2 {
-                color:#1883aa;
-            }
-        </style>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -49,12 +40,12 @@
                     </a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="./index.html">home</a></li>
-                            <li class="dropdown">
+                            <li><a href="./index.html">home</a></li>
+                            <li class="dropdown active">
                                 <a class="dropdown-toggle" id="about" role="button" data-toggle="dropdown" data-target="#" href="about/">
-                                <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown"> -->about <b class="caret"></b></a>
+                                about <b class="caret"></b></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="about">
-                                    <li><a href="./about.html">our story</a></li>
+                                    <li class="active"><a href="./about.html">our story</a></li>
                                     <li><a href="#">our team</a></li>
                                     <li><a href="#">board of directors</a></li>
                                     <li class="divider"></li>
@@ -98,44 +89,17 @@
                 </div>
             </div>
         </div>
-
-        <header class="visible-desktop">
+        <header>
             <div class="container-fluid">
                 <div class="row-fluid">
-                    <div class="span3" id="head-logo">
-                        <div id="logo-img">
-                            <img src="graphics/svc_logo_head2.png">
+                    <div class="span12"  style="vertical-align:bottom;">
+                        <div class="logo-img pull-left visible-desktop">
+                            <img src="graphics/svc_logo_head2.png" style="height:80px;">
                         </div>
-                    </div>
-                    <div class="span9" id="head-title">
-                        <h1>Student Volunteer Connections</h1>
-                        <h2>your on-campus volunteer centre</h2>
-                        <p class="lead">you can do so much <a class="btn btn-warning">ask us how!</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- <header class="-tablet">
-            <div class="container-fluid">
-               <div class="row-fluid">
-                    <div class="span3" id="head-logo">
-                        <img src="graphics/svc_logo_head2.png">
-                    </div>
-                    <div class="span9" id="head-title">
-                        <h1>Student Volunteer Connections</h1>
-                        <p class="lead">you can do so much, ask us how!</p>
-                    </div>
-                </div>
-            </div>
-        </header> -->
-        
-        <header class="hidden-desktop">
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span12"  style="vertical-align:bottom">
-                        <h1>Student Volunteer Connections</h1>
-                        <p class="lead">you can do so much, ask us how!</p>
+                        <div class="pull-left">
+                            <div id="title">Student Volunteer Connections</div>
+                            <p class="lead">you can do so much, ask us how!</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,82 +107,50 @@
         <div class="container-fluid">
             <div class="row-fluid">
                 <div id="main-body">
-                    <div class="span4">
-                        <h2>welcome</h2>
-                        <p>As Canada's first &amp; only incorporated student run volunteer centre, Student Volunteer Connections works to ignite, educate, & foster involvement of University of Guelph students through the world of volunteerism. Student Volunteer Connections strives to promote positive social action for the purpose of building skills, passions, and most of all, community.</p>
-                        <p>Student Volunteer Connections is proud to present this University of Guelph portal to accessing involvement opportunities, resources, and a network of 300 volunteer-based organizations.</p>
-                        <p class="text-right"><a class="btn" href="#">learn more &raquo;</a></p>
+                    <div class="span9">
+<h1>HTML Ipsum Presents</h1>
+           
+<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+<h2>Header Level 2</h2>
+           
+<ol>
+   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+   <li>Aliquam tincidunt mauris eu risus.</li>
+</ol>
+
+<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+<h3>Header Level 3</h3>
+
+<ul>
+   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+   <li>Aliquam tincidunt mauris eu risus.</li>
+</ul>
+
+<pre><code>
+#header h1 a { 
+    display: block; 
+    width: 300px; 
+    height: 80px; 
+}
+</code></pre>
+
+<h4>Header Level 4</h4>
+<dl>
+   <dt>Definition list</dt>
+   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.</dd>
+   <dt>Lorem ipsum dolor sit amet</dt>
+   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.</dd>
+</dl>
                         <div class="clearfix"></div>
-                    </div>
-                    <div class="span5">
-                        <h2>current events</h2>
-                        <!--<blockquote>
-                        <ol>
-                            <li>
-                                <p>HELP Trip - Green Legacy Tree Farm</p>
-                                <small>hosted by SVC</small>
-                            </li>
-                            <li>
-                                <p>HELP Trip - Green Legacy Tree Farm</p>
-                                <small>hosted by SVC</small>
-                            </li>
-                        </ol>
-                        </blockquote>-->
-                        <div class="accordion" id="current-ops">
-                          <div class="accordion-group">
-                            <div class="accordion-heading">
-                              <a class="accordion-toggle" data-toggle="collapse" data-parent="#current-ops" href="#collapseOne">
-                                HELP Trip - Green Legacy Tree Farm
-                              </a>
-                            </div>
-                            <div id="collapseOne" class="accordion-body collapse in">
-                              <div class="accordion-inner">
-                                <p>Join SVC for a day of fun at the Green Legacy Tree Farm, snacks and transportation will be provided. <a href="#" class="btn btn-mini">more info &raquo;</a></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-group">
-                            <div class="accordion-heading">
-                              <a class="accordion-toggle" data-toggle="collapse" data-parent="#current-ops" href="#collapseTwo">
-                                Sept. 15, 2013 Terry Fox Run
-                              </a>
-                            </div>
-                            <div id="collapseTwo" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                Anim pariatur cliche...
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-group">
-                            <div class="accordion-heading">
-                              <a class="accordion-toggle" data-toggle="collapse" data-parent="#current-ops" href="#collapseThree">
-                                Sept. 15, 2013 Terry Fox Run
-                              </a>
-                            </div>
-                            <div id="collapseThree" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                Anim pariatur cliche...
-                              </div>
-                            </div>
-                          </div>
-                          <div class="accordion-group">
-                            <div class="accordion-heading">
-                              <a class="accordion-toggle" data-toggle="collapse" data-parent="#current-ops" href="#collapseFour">
-                                Sept. 15, 2013 Terry Fox Run
-                              </a>
-                            </div>
-                            <div id="collapseFour" class="accordion-body collapse">
-                              <div class="accordion-inner">
-                                Anim pariatur cliche...
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <p class="text-right"><a class="btn" href="#">see more &raquo;</a></p>
-                        <div class="clearfix"></div>
-                   </div>    
+                    </div>  
                 </div>
-                <div class="span3 affix-top" id="highlights" data-offset-top="160">
+                <div class="span3 affix-top" id="highlights">
                     <h2>quick links</h2>
                     <ul>
                         <!-- <li>Database</li> -->
