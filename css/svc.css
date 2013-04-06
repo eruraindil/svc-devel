@@ -200,7 +200,7 @@ h4 {color:#f26430;}
 }
 
 @media (max-width: 480px) {
-    header h1 {
+    header h1, div #title {
         font-size:x-large;
     }
     header p.lead {

@@ -1,5 +1,5 @@
 
-if(Modernizr.mq('only screen and (max-width: 767px)')) {
+if(Modernizr.mq('only screen and (max-width: 979px)')) {
     $('#highlights').css('background-image','none');
 } else {
     $('#highlights').affix({
