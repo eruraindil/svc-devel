@@ -100,6 +100,10 @@ header .lead {
     margin-bottom:10px;
 }
 
+header .lead a {
+    text-decoration: underline;
+}
+
 header .container-fluid {
     /*background:url('../graphics/top_swoop.png') bottom left no-repeat;*/
 }
@@ -109,6 +113,9 @@ header .container-fluid {
 }
 .accordion-heading a {
     color: #5f4866;
+}
+.accordion-heading a small {
+    color: #999;
 }
 #highlights {
     background:#73abb2;
